@@ -16,8 +16,10 @@ def openClose(frame, handLms, w, h):
         # print(change)
         if(change>+50):
             print("Hand is closing ")
+            return 1
         elif(change<-50):
             print("Hand is opening ")
+            return 2
 
 time_left = time.time()
 time_right = time.time()
@@ -39,9 +41,12 @@ def sliderHori(handLms, frame, w=1):
                 time_right = time.time()
                 right_taken = True
     if(time_left<time_right and right_taken and left_taken):
-        print("Hand is moving right")
+        print("Hand is moving LEFT")
+        return 3
     if(time_right<time_left and right_taken and left_taken):
-        print("Hand is moving left")
+        print("Hand is moving RIGHT")
+        return 4
+    return 0
 
 time_up = time.time()
 time_down = time.time()
@@ -65,8 +70,11 @@ def sliderVer(handLms, frame, h=1):
         # print("Y pos is ", cy)
     if(time_down<time_up and down_taken and up_taken):
         print("Hand is moving UP")
+        return 5
     if(time_up<time_down and down_taken and up_taken):
         print("Hand is moving DOWN")
+        return 6
+    return 0
 
 
 def eulcidian_distance(X, Y, x_0, y_0):
@@ -116,8 +124,12 @@ pTime = 0
 # Current time for frame rate
 cTime = 0
 frame = 0
+time_before_gesture = 0
 while True:
     # Getting our Frame
+    if((time.time() - time_before_gesture)>2.000):
+        time_before_gesture = 0
+
     success, img = cap.read()
     img = cv2.resize(img,(500,500))
     # Convert image into RGB
@@ -125,8 +137,6 @@ while True:
     # Calling the hands object to the getting results
     results = hands.process(imgRGB)
     #print(results.multi_hand_landmarks)
-    sumNEW=0
-    sumOLD=0
     # Checking something is detected or not
     if results.multi_hand_landmarks :
         # Extracting the multiple hands 
@@ -148,9 +158,16 @@ while True:
             # Draw the landmarks and line of the each hands
             mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
             # openClose(frame, handLms)
-            sliderHori(handLms, frame, w)
-            sliderVer(handLms, frame, h)
-            openClose(frame, handLms, w, h)
+            if(time_before_gesture == 0):
+                hor = sliderHori(handLms, frame, w)
+                ver = sliderVer(handLms, frame, h)
+            if(hor>0):
+                hor = 0
+                time_before_gesture = time.time()
+            if(ver>0):
+                ver = 0
+                time_before_gesture = time.time()
+            # openClose(frame, handLms, w, h)
     else:
         left_taken = False
         right_taken = False
