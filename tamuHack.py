@@ -10,13 +10,13 @@ def openClose(frame, handLms, w, h):
     distcurr=utility(handLms, w, h)
     if(frame == 1):
         dist0 = distcurr
-    if((frame%4 +1) == 1 and abs(handLms.landmark[mp.solutions.hands.HandLandmark.WRIST].x*w - w/2)<250):
+    if((frame%4 +1) == 1 and abs(handLms.landmark[mp.solutions.hands.HandLandmark.WRIST].x*w - w/2)<150 and abs(handLms.landmark[mp.solutions.hands.HandLandmark.WRIST].y*h - h/2)<150):
         change = dist0- distcurr
         dist = utility(handLms, w, h)
         # print(change)
-        if(change>+150):
+        if(change>+50):
             print("Hand is closing ")
-        elif(change<-150):
+        elif(change<-50):
             print("Hand is opening ")
 
 time_left = time.time()
@@ -31,11 +31,11 @@ def sliderHori(handLms, frame, w=1):
     for id, lm in enumerate(handLms.landmark):
         if(id==0):
             cx = int((lm.x)*w)
-            if(cx < 200 and left_taken== False):
+            if(cx < 80 and left_taken== False):
                 time_left = time.time()
                 left_taken = True
         
-            if(cx > 800 and right_taken == False):
+            if(cx > 200 and right_taken == False):
                 time_right = time.time()
                 right_taken = True
     if(time_left<time_right and right_taken and left_taken):
@@ -55,11 +55,11 @@ def sliderVer(handLms, frame, h=1):
     for id, lm in enumerate(handLms.landmark):
         if(id==0):
             cy = int((lm.y)*h)  
-            if(cy < 300 and up_taken== False):
+            if(cy < 90 and up_taken== False):
                 time_up = time.time()
                 up_taken = True
         
-            if(cy > 600 and down_taken == False):
+            if(cy > 180 and down_taken == False):
                 time_down = time.time()
                 down_taken = True
         # print("Y pos is ", cy)
@@ -119,7 +119,7 @@ frame = 0
 while True:
     # Getting our Frame
     success, img = cap.read()
-    img = cv2.resize(img,(1000,1000))
+    img = cv2.resize(img,(500,500))
     # Convert image into RGB
     imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     # Calling the hands object to the getting results
