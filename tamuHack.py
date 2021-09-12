@@ -10,7 +10,7 @@ def openClose(frame, handLms, w, h):
     distcurr=utility(handLms, w, h)
     if(frame == 1):
         dist0 = distcurr
-    if((frame%4 +1) == 1 and abs(handLms.landmark[mp.solutions.hands.HandLandmark.WRIST].x*w - w/2)<150 and abs(handLms.landmark[mp.solutions.hands.HandLandmark.WRIST].y*h - h/2)<150):
+    if((frame%4 +1) == 1 and abs(handLms.landmark[mp.solutions.hands.HandLandmark.WRIST].x*w - w/2)<w/2 and abs(handLms.landmark[mp.solutions.hands.HandLandmark.WRIST].y*h - h/2)<h/2):
         change = dist0- distcurr
         dist = utility(handLms, w, h)
         # print(change)
@@ -20,6 +20,8 @@ def openClose(frame, handLms, w, h):
         elif(change<-50):
             print("Hand is opening ")
             return 2
+    return 0
+    
 
 time_left = time.time()
 time_right = time.time()
@@ -125,11 +127,13 @@ pTime = 0
 cTime = 0
 frame = 0
 time_before_gesture = 0
+time_vol = 0
 while True:
     # Getting our Frame
     if((time.time() - time_before_gesture)>2.000):
         time_before_gesture = 0
-
+    if((time.time() - time_vol)>0.1):
+        time_vol = 0
     success, img = cap.read()
     img = cv2.resize(img,(500,500))
     # Convert image into RGB
@@ -160,14 +164,18 @@ while True:
             # openClose(frame, handLms)
             if(time_before_gesture == 0):
                 hor = sliderHori(handLms, frame, w)
+            if(time_vol == 0):
                 ver = sliderVer(handLms, frame, h)
+                # op = openClose(frame, handLms, w, h)
             if(hor>0):
                 hor = 0
                 time_before_gesture = time.time()
             if(ver>0):
                 ver = 0
-                time_before_gesture = time.time()
-            # openClose(frame, handLms, w, h)
+                time_vol = time.time()
+            # if(op>0):
+            #     op = 0
+            #     time_before_gesture = time.time()
     else:
         left_taken = False
         right_taken = False
