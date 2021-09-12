@@ -3,14 +3,12 @@ import getmusic
 import json
 import os
 import cv2
-import gesture
 from jinja2 import Markup
 from os import path
 
 app = Flask(__name__)
 @app.route('/')
 def getm():
-    #gesture.entry_func()
     print('home')
     df = getmusic.getTrackFilename('temp.jpeg')
     #json_object = json.dumps(df.head(20))
@@ -18,8 +16,7 @@ def getm():
 
 @app.route('/capture')
 def index():
-    print(os.getcwd())
-    if path.exists(os.getcwd()+"/temp.jpeg"):
-        os.remove(os.getcwd()+"/temp.jpeg")
+    if path.exists("temp.jpeg"):
+        os.remove("temp.jpeg")
     return render_template('home.html')
 app.run()

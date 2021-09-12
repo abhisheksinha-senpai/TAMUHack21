@@ -12,7 +12,7 @@ def getTrackFilename(current_name):
     print("printing dataframe before filter")
     val1 = df.loc[df['Emotion_tmp'] == int(track)]
     val1 = val1.sample(frac =1)
-    return val1[['Nro','Album_name', 'location']]
+    return val1[['Nro','Album_name', 'location', 'Emotion']]
 
 
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<body align="center">
+<div id='m1' style='height:50%;width:80%;color:blue;align:center'></div>
+<button style="height:20px;width:100px;float:left;" onclick="capture()">Capture</button>
+<canvas id='m2' style='height:50%;width:80%;color:blue'></canvas>
+<script type="text/javascript">
+
+
+// Load google charts
+var video = document.createElement('video');
+
+let div = document.getElementById("m1");
+video.setAttribute('playsinline', '');
+video.setAttribute('id','video');
+video.setAttribute('autoplay', '');
+video.setAttribute('muted', '');
+video.style.width = '80%';
+video.style.height = '50%';
+div.append(video);
+
+/* Setting up the constraint */
+var facingMode = "user"; // Can be 'user' or 'environment' to access back or front camera (NEAT!)
+var constraints = {
+  audio: false,
+  video: {
+   facingMode: facingMode
+  }
+};
+
+
+/* Stream it to video element */
+navigator.mediaDevices.getUserMedia(constraints).then(function success(stream) {
+  video.srcObject = stream;
+});
+
+
+function capture() {
+
+    const canvas = document.getElementById("m2");
+    var video = document.getElementById('video');
+    canvas.width = video.videoWidth;
+    canvas.height = video.videoHeight;
+    canvas.getContext('2d').drawImage(video, 0, 0, video.videoWidth, video.videoHeight);
+    fn();
+
+}
+function fn(){
+  var link = document.createElement('a');
+  link.download = 'temp.jpeg';
+  link.href = document.getElementById('m2').toDataURL()
+  link.click();
+  window.open("http://localhost:5000/")
+}
+</script>
+
+</body>
+</html>

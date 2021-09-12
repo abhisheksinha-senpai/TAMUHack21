@@ -1,0 +1,181 @@
+,Nro,Emotion,Album_name,Track,Min:Sec,Emotion_tmp,location
+0,1,Happy,Shallow Grave,6,02:02-02:17,3,static/Set1/001.mp3
+1,2,Happy,The Rainmaker,2,01:54-02:07,3,static/Set1/002.mp3
+2,3,Happy,The Rainmaker,3,02:55-03:13,3,static/Set1/003.mp3
+3,4,Happy,Man of Galilee CD1,2,03:02-03:18,3,static/Set1/004.mp3
+4,5,Happy,Shakespeare in Love,1,01:06-01:22,3,static/Set1/005.mp3
+5,6,Happy,The Rainmaker,5,03:07-03:23,3,static/Set1/006.mp3
+6,7,Happy,Man of Galilee CD1,11,00:00-00:18,3,static/Set1/007.mp3
+7,8,Happy,Nostradamus,1,00:00-00:16,3,static/Set1/008.mp3
+8,9,Happy,Band of Brothers,3,01:19-01:36,3,static/Set1/009.mp3
+9,10,Happy,The Untouchables,6,01:50-02:05,3,static/Set1/010.mp3
+10,11,Happy,Shine,5,02:00-02:16,3,static/Set1/011.mp3
+11,12,Happy,Shine,13,00:00-00:20,3,static/Set1/012.mp3
+12,13,Happy,Shallow Grave,3,01:45-02:00,3,static/Set1/013.mp3
+13,14,Happy,Shine,5,00:36-00:53,3,static/Set1/014.mp3
+14,15,Happy,Big Fish,21,00:00-00:15,3,static/Set1/015.mp3
+15,16,Happy,Big Fish,8,00:12-00:34,3,static/Set1/016.mp3
+16,17,Happy,Shakespeare in Love,17,00:03-00:23,3,static/Set1/017.mp3
+17,18,Happy,Shine,15,01:00-01:19,3,static/Set1/018.mp3
+18,19,Happy,Big Fish,13,01:02-01:17,3,static/Set1/019.mp3
+19,20,Happy,Vertigo OST,6,04:42-04:57,3,static/Set1/020.mp3
+20,21,Happy,Gladiator,17,00:14-00:27,3,static/Set1/021.mp3
+21,22,Happy,Shakespeare in Love,21,00:03-00:21,3,static/Set1/022.mp3
+22,23,Happy,Big Fish,8,00:35-00:55,3,static/Set1/023.mp3
+23,24,Happy,The Four Feathers,7,05:40-05:55,3,static/Set1/024.mp3
+24,25,Happy,Big Fish,12,00:55-01:10,3,static/Set1/025.mp3
+25,26,Happy,The English Patient,7,00:33-00:58,3,static/Set1/026.mp3
+26,27,Happy,Shallow Grave,8,00:00-00:15,3,static/Set1/027.mp3
+27,28,Happy,The English Patient,3,00:28-00:45,3,static/Set1/028.mp3
+28,29,Happy,Vertigo OST,6,02:02-02:17,3,static/Set1/029.mp3
+29,30,Happy,The English Patient,7,00:00-00:31,3,static/Set1/030.mp3
+30,31,Sad,The Four Feathers,10,01:15-01:34,4,static/Set1/031.mp3
+31,32,Sad,The English Patient,18,00:07-00:32,4,static/Set1/032.mp3
+32,33,Sad,The English Patient,10,00:24-00:52,4,static/Set1/033.mp3
+33,34,Sad,Band of Brothers,12,01:09-01:26,4,static/Set1/034.mp3
+34,35,Sad,Nostradamus,20,01:35-01:52,4,static/Set1/035.mp3
+35,36,Sad,Running Scared,15,02:06-02:27,4,static/Set1/036.mp3
+36,37,Sad,Road to Perdition,16,00:17-00:32,4,static/Set1/037.mp3
+37,38,Sad,Psycho,3,00:58-01:24,4,static/Set1/038.mp3
+38,39,Sad,Big Fish,15,00:55-01:11,4,static/Set1/039.mp3
+39,40,Sad,Man of Galilee CD1,8,01:20-01:37,4,static/Set1/040.mp3
+40,41,Sad,Big Fish,22,00:00-00:20,4,static/Set1/041.mp3
+41,42,Sad,The Untouchables,4,00:40-00:55,4,static/Set1/042.mp3
+42,43,Sad,Band of Brothers,15,00:35-00:56,4,static/Set1/043.mp3
+43,44,Sad,Gladiator,7,02:15-02:38,4,static/Set1/044.mp3
+44,45,Sad,Gladiator,4,00:48-01:06,4,static/Set1/045.mp3
+45,46,Sad,Gladiator,14,01:38-02:02,4,static/Set1/046.mp3
+46,47,Sad,Big Fish,15,00:02-00:17,4,static/Set1/047.mp3
+47,48,Sad,Road to Perdition,13,00:47-01:02,4,static/Set1/048.mp3
+48,49,Sad,Running Scared,19,03:11-03:25,4,static/Set1/049.mp3
+49,50,Sad,Road to Perdition,22,00:00-00:13,4,static/Set1/050.mp3
+50,51,Sad,The Rainmaker,11,00:37-00:57,4,static/Set1/051.mp3
+51,52,Sad,Band of Brothers,3,07:43-07:58,4,static/Set1/052.mp3
+52,53,Sad,The Missing,2,02:31-02:48,4,static/Set1/053.mp3
+53,54,Sad,Shakespeare in Love,3,00:59-01:17,4,static/Set1/054.mp3
+54,55,Sad,Shine,18,00:43-01:07,4,static/Set1/055.mp3
+55,56,Sad,Mississippi Burning,3,00:25-:40,4,static/Set1/056.mp3
+56,57,Sad,Road to Perdition,8,00:38-00:53,4,static/Set1/057.mp3
+57,58,Sad,Big Fish,11,01:26-01:40,4,static/Set1/058.mp3
+58,59,Sad,Road to Perdition,1,00:35-00:50,4,static/Set1/059.mp3
+59,60,Sad,Shine,28,01:24-01:43,4,static/Set1/060.mp3
+60,61,Tender,Big Fish,17,00:00-00:15,6,static/Set1/061.mp3
+61,62,Tender,Shine,10,01:28-01:48,6,static/Set1/062.mp3
+62,63,Tender,Running Scared,2,00:00-00:25,6,static/Set1/063.mp3
+63,64,Tender,Shakespeare in Love,2,00:00-00:15,6,static/Set1/064.mp3
+64,65,Tender,Road to Perdition,26,00:24-00:39,6,static/Set1/065.mp3
+65,66,Tender,The Missing,3,00:24-00:49,6,static/Set1/066.mp3
+66,67,Tender,Band of Brothers,3,06:58-07:18,6,static/Set1/067.mp3
+67,68,Tender,Road to Perdition,13,00:14-00:29,6,static/Set1/068.mp3
+68,69,Tender,The Four Feathers,12,00:50-01:02,6,static/Set1/069.mp3
+69,70,Tender,Naked Lunch,11,00:00-00:19,6,static/Set1/070.mp3
+70,71,Tender,Big Fish,18,00:00-00:13,6,static/Set1/071.mp3
+71,72,Tender,The Rainmaker,4,02:57-03:10,6,static/Set1/072.mp3
+72,73,Tender,Man of Galilee CD1,7,02:28-02:53,6,static/Set1/073.mp3
+73,74,Tender,The Untouchables,9,00:04-00:23,6,static/Set1/074.mp3
+74,75,Tender,Nostradamus,14,00:54-01:17,6,static/Set1/075.mp3
+75,76,Tender,The Rainmaker,8,02:13-02:33,6,static/Set1/076.mp3
+76,77,Tender,Man of Galilee CD1,3,00:55-01:32,6,static/Set1/077.mp3
+77,78,Tender,Man of Galilee CD1,4,00:00-00:22,6,static/Set1/078.mp3
+78,79,Tender,Nostradamus,2,01:09-01:28,6,static/Set1/079.mp3
+79,80,Tender,Nostradamus,7,00:37-00:52,6,static/Set1/080.mp3
+80,81,Tender,Road to Perdition,26,00:59-01:14,6,static/Set1/081.mp3
+81,82,Tender,Road to Perdition,26,02:47-03:02,6,static/Set1/082.mp3
+82,83,Tender,Big Fish,17,01:24-01:39,6,static/Set1/083.mp3
+83,84,Tender,Big Fish,14,00:14-00:30,6,static/Set1/084.mp3
+84,85,Tender,Gladiator,4,01:58-02:14,6,static/Set1/085.mp3
+85,86,Tender,Shine,15,00:45-01:00,6,static/Set1/086.mp3
+86,87,Tender,The English Patient,2,01:03-01:2,6,static/Set1/087.mp3
+87,88,Tender,Big Fish,12,00:03-00:20,6,static/Set1/088.mp3
+88,89,Tender,Naked Lunch,6,00:00-00:16,6,static/Set1/089.mp3
+89,90,Tender,Road to Perdition,9,01:34-01:48,6,static/Set1/090.mp3
+90,91,Fear,Running Scared,4,02:49-03:05,2,static/Set1/091.mp3
+91,92,Fear,Psycho,1,00:00-00:22,2,static/Set1/092.mp3
+92,93,Fear,Nostradamus,1,01:28-01:45,2,static/Set1/093.mp3
+93,94,Fear,The Untouchables,10,00:54-01:10,2,static/Set1/094.mp3
+94,95,Fear,Running Scared,8,00:20-00:35,2,static/Set1/095.mp3
+95,96,Fear,Cape Fear,5,01:30-01:48,2,static/Set1/096.mp3
+96,97,Fear,Mississippi Burning,8,00:45-01:00,2,static/Set1/097.mp3
+97,98,Fear,Road to Perdition,6,00:34-00:49,2,static/Set1/098.mp3
+98,99,Fear,Dracula,5,02:12-02:28,2,static/Set1/099.mp3
+99,100,Fear,Psycho,10,00:47-01:08,2,static/Set1/100.mp3
+100,101,Fear,Shallow Grave,7,00:00-00:15,2,static/Set1/101.mp3
+101,102,Fear,Gladiator,7,03:00-03:17,2,static/Set1/102.mp3
+102,103,Fear,The Untouchables,5,02:05-02:20,2,static/Set1/103.mp3
+103,104,Fear,The Alien Trilogy,11,02:12-02:27,2,static/Set1/104.mp3
+104,105,Fear,Road to Perdition,12,00:20-00:35,2,static/Set1/105.mp3
+105,106,Fear,Road to Perdition,17,00:02-00:17,2,static/Set1/106.mp3
+106,107,Fear,Dracula,2,00:24-00:41,2,static/Set1/107.mp3
+107,108,Fear,Cape Fear,5,01:05-01:20,2,static/Set1/108.mp3
+108,109,Fear,Mississippi Burning,2,00:55-01:10,2,static/Set1/109.mp3
+109,110,Fear,Gladiator,9,02:15-02:36,2,static/Set1/110.mp3
+110,111,Fear,Cape Fear,1,00:26-00:35,2,static/Set1/111.mp3
+111,112,Fear,Psycho,9,00:35-00:55,2,static/Set1/112.mp3
+112,113,Fear,The Untouchables,8,01:38-01:53,2,static/Set1/113.mp3
+113,114,Fear,Man of Galilee CD1,6,00:40-01:07,2,static/Set1/114.mp3
+114,115,Fear,The Missing,3,02:45-03:06,2,static/Set1/115.mp3
+115,116,Fear,Gladiator,9,00:35-00:51,2,static/Set1/116.mp3
+116,117,Fear,Shakespeare in Love,11,00:21-00:36,2,static/Set1/117.mp3
+117,118,Fear,Band of Brothers,4,00:24-00:44,2,static/Set1/118.mp3
+118,119,Fear,Band of Brothers,15,02:14-02:27,2,static/Set1/119.mp3
+119,120,Fear,Nostradamus,15,02:48-03:05,2,static/Set1/120.mp3
+120,121,Anger,Cape Fear,13,01:02-01:20,0,static/Set1/121.mp3
+121,122,Anger,Gladiator,13,01:18-01:26,0,static/Set1/122.mp3
+122,123,Anger,Gladiator,3,04:55-05:17,0,static/Set1/123.mp3
+123,124,Anger,The Rainmaker,7,01:45-02:00,0,static/Set1/124.mp3
+124,125,Anger,The Alien Trilogy,9,00:03-00:18,0,static/Set1/125.mp3
+125,126,Anger,The Alien Trilogy,9,01:14-01:29,0,static/Set1/126.mp3
+126,127,Anger,Gladiator,3,02:25-02:46,0,static/Set1/127.mp3
+127,128,Anger,The Four Feathers,9,02:42-02:57,0,static/Set1/128.mp3
+128,129,Anger,The Missing,3,03:24-03:42,0,static/Set1/129.mp3
+129,130,Anger,Road to Perdition,25,01:12-01:27,0,static/Set1/130.mp3
+130,131,Anger,Shine,9,00:48-01:04,0,static/Set1/131.mp3
+131,132,Anger,Psycho,17,00:27-00:45,0,static/Set1/132.mp3
+132,133,Anger,Cape Fear,13,00:02-00:20,0,static/Set1/133.mp3
+133,134,Anger,Shakespeare in Love,15,00:40-00:56,0,static/Set1/134.mp3
+134,135,Anger,Nostradamus,6,01:32-01:47,0,static/Set1/135.mp3
+135,136,Anger,The Missing,12,00:28-00:46,0,static/Set1/136.mp3
+136,137,Anger,Running Scared,15,03:20-03:33,0,static/Set1/137.mp3
+137,138,Anger,Cape Fear,12,00:02-00:20,0,static/Set1/138.mp3
+138,139,Anger,The Alien Trilogy,6,00:00-00:15,0,static/Set1/139.mp3
+139,140,Anger,Running Scared,16,03:30-03:45,0,static/Set1/140.mp3
+140,141,Anger,Cape Fear,6,01:02-01:20,0,static/Set1/141.mp3
+141,142,Anger,The Missing,12,00:00-00:24,0,static/Set1/142.mp3
+142,143,Anger,Naked Lunch,16,00:55-01:12,0,static/Set1/143.mp3
+143,144,Anger,Cape Fear,6,00:00-00:20,0,static/Set1/144.mp3
+144,145,Anger,Shakespeare in Love,11,00:45-00:59,0,static/Set1/145.mp3
+145,146,Anger,The Missing,10,04:44-05:01,0,static/Set1/146.mp3
+146,147,Anger,The Rainmaker,6,05:24-05:42,0,static/Set1/147.mp3
+147,148,Anger,Road to Perdition,25,00:13-00:27,0,static/Set1/148.mp3
+148,149,Anger,Band of Brothers,18,00:40-01:00,0,static/Set1/149.mp3
+149,150,Anger,Shakespeare in Love,9,00:00-00:22,0,static/Set1/150.mp3
+150,151,Surprise,The Rainmaker,5,00:00-00:16,5,static/Set1/151.mp3
+151,152,Surprise,The Rainmaker,9,01:36-01:46,5,static/Set1/152.mp3
+152,153,Surprise,Naked Lunch,14,01:02-01:17,5,static/Set1/153.mp3
+153,154,Surprise,Naked Lunch,18,00:14-00:30,5,static/Set1/154.mp3
+154,155,Surprise,The Rainmaker,4,04:31-04:43,5,static/Set1/155.mp3
+155,156,Surprise,Shallow Grave,4,01:04-01:19,5,static/Set1/156.mp3
+156,157,Surprise,The Alien Trilogy,5,00:26-00:41,5,static/Set1/157.mp3
+157,158,Surprise,Naked Lunch,8,04:00-04:16,5,static/Set1/158.mp3
+158,159,Surprise,Road to Perdition,20,00:25-00:40,5,static/Set1/159.mp3
+159,160,Surprise,Man of Galilee CD1,2,00:19-00:42,5,static/Set1/160.mp3
+160,161,Surprise,Band of Brothers,6,00:00-00:20,5,static/Set1/161.mp3
+161,162,Surprise,Man of Galilee CD1,2,03:45-04:02,5,static/Set1/162.mp3
+162,163,Surprise,Naked Lunch,7,01:01-01:20,5,static/Set1/163.mp3
+163,164,Surprise,Naked Lunch,17,00:00-00:19,5,static/Set1/164.mp3
+164,165,Surprise,Cape Fear,14,00:02-00:20,5,static/Set1/165.mp3
+165,166,Surprise,Cape Fear,15,02:32-02:50,5,static/Set1/166.mp3
+166,167,Surprise,Road to Perdition,14,00:00-00:15,5,static/Set1/167.mp3
+167,168,Surprise,Cape Fear,1,02:15-02:30,5,static/Set1/168.mp3
+168,169,Surprise,The Missing,12,02:35-02:55,5,static/Set1/169.mp3
+169,170,Surprise,The English Patient,8,01:35-01:57,5,static/Set1/170.mp3
+170,171,Surprise,Band of Brothers,2,00:34-00:57,5,static/Set1/171.mp3
+171,172,Surprise,Road to Perdition,14,01:15-01:30,5,static/Set1/172.mp3
+172,173,Surprise,Running Scared,6,02:53-03:07,5,static/Set1/173.mp3
+173,174,Surprise,The English Patient,8,00:38-00:57,5,static/Set1/174.mp3
+174,175,Surprise,Nostradamus,18,01:59-02:15,5,static/Set1/175.mp3
+175,176,Surprise,Running Scared,22,01:28-01:43,5,static/Set1/176.mp3
+176,177,Surprise,Cape Fear,2,01:25-01:40,5,static/Set1/177.mp3
+177,178,Surprise,Big Fish,15,00:15-00:30,5,static/Set1/178.mp3
+178,179,Surprise,Band of Brothers,12,02:31-02:48,5,static/Set1/179.mp3
+179,180,Surprise,Shakespeare in Love,6,00:00-00:19,5,static/Set1/180.mp3
