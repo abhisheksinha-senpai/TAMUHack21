@@ -1,0 +1,1 @@
+Unzip static.zip before using
